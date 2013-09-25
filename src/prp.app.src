@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, prp,
+ [
+  {description, "prp"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { prp_app, []}},
+  {env, []}
+ ]}.
